@@ -1,0 +1,36 @@
+Affiche différents contenus à l'aide d'un seul fichier PHP
+Créé à l'identique:
+
+Créer un dossier de travail (quête 8)
+(exemple 0.png)
+
+Utilise Uniquement Html/Php/Bootstrap
+CSS non autorisé!
+
+
+==> Lorsque le formulaire est soumis, les données sont enregistrées dans une Session ['table']
+    Une alerte affiche "Les données ont bien été sauvegardées"
+-Si il manque une valeur affiche une message d'erreur individuel 
+    
+Quand les données sont sauvegardées, il suffit de cliquer sur "home" 
+Ou de raffraichir la page pour afficher la "ul"
+(Affiche "ul", uniquement lorsque la session est présente)
+
+==> Lors du clic sur un lien, récupere le contenu de la Session et affiche =>   
+
+- Débogage: affiche le contenu de la session avec print_r
+
+- Concaténation: 
+affiche les données sous la forme d'une phrase
+affiche les données sous la forme d'une phrase (A l'aide d'une fonction intégré: affiche ton nom en Majuscule)
+affiche les données sous la forme d'une phrase (A l'aide d'une fonction intégré: affiche ton nom en Majuscule et remplace le "." par ",")
+
+- Boucle: 
+A l'aide d'une boucle affiche 10 fois les données sous la forme d'une phrase
+
+-Fonction:
+Créer une fonction readTable
+Appel une fois ta fonction (Affiche la clé et le contenu sous la forme d'une phrase)
+
+-Supprimer:
+Supprimer doit détruire la session
